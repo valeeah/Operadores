@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operadores Aritmeticos</title>
+    <link rel="stylesheet" href="style.css" type="text/css"/>
+
+</head>
+<body>
+    <center>
+        <h1>Operadores Aritmeticos </h1><br>
+        <!--Contenedor dampos de entrada, botones y respuesta-->
+        <div class="input-container">
+            <!--Campo de entrada para el numero uno-->
+            <div class="input-group">
+                <label for="n1"> Numero 1:</label>
+                <input type="text" id="n1">
+
+            </div>
+            <!--Campo de entrada para el numero dos-->
+            <div class="input-group">
+                <label for="n2"> Numero 2:</label>
+                <input type="text" id="n2">
+
+            </div>
+            <!--Campo de respuesta-->
+            <div class="input-group">
+                <label for="res"> Respuesta:</label>
+                <input type="text" id="res">
+            </div>
+        </div>
+        <!--Contenedor de botones-->
+        <div class="button-container">
+            <!--Botones de operaciones-->
+            <button class="botones" onclick="Suma()">
+                <img src="mas.png" width="45" height="45" alt="Suma">               
+            </button>
+            
+            <button class="botones" onclick="Resta()">
+                <img src="menos.png" width="45" height="45" alt="Resta">            
+            </button>
+
+            <button class="botones" onclick="Multiplicacion()">
+                <img src="multiplicacion.png" width="45" height="45" alt="Multiplicacion">
+            </button>
+
+            <button class="botones" onclick="Division()">
+                <img src="division.png" width="45" height="45" alt="Division">            
+            </button>
+
+        </div>
+
+        <script src="script.js"></script>
+    </center>
+    
+</body>
+</html>

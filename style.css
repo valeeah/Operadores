@@ -1,0 +1,47 @@
+/*Recet de estilos y estilos generales*/
+html, body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+
+}
+body {
+    background: linear-gradient(45deg,#b8b4ec, #e997d7);
+    font-family: Arial, sans-serif;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+/*Estilos para el contenedor de campos de entrada, botones y respuesta*/
+.input-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+/*Estilos para cada grupo de entrada (etiqueta + campos de entrada)*/
+.input-group{
+    margin-bottom: 10px;
+
+}
+/*Estilos para los botones de operaciones*/
+.button-container{
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+
+}
+.botones{
+    margin: 0 5px;
+
+}
+.botones:hover{
+    background-color: blueviolet;
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+
+}
